@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.foundation {
+  width: 100%;
+}
+
+.bace-conteiner {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.conteiner-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #191919;
+  text-decoration: none;
+  padding: 3.5ex;
+}
+
+.header-menu:hover {
+  color: #10C9C3;
+}
+
+.header-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.contacts {
+  font-family: Nunito Sans;
+  position: relative;
+  padding: 104px 0;
+}
+
+.contacts h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 84px;
+  letter-spacing: 0.3px;
+  color: #171717;
+  margin: 0;
+  max-width: 438px;
+}
+
+.contacts h3 {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+  color: #787878;
+  margin: 0;
+  padding-bottom: 38px;
+  max-width: 438px;
+}
+
+.contacts p {
+  line-height: 36px;
+  color: #787878;
+  font-weight: 400;
+  margin: 0;
+  max-width: 438px;
+}
+
+.contacts p span {
+  font-weight: bold;
+  color: #171717;
+}
+
+.contacts p a {
+  line-height: 36px;
+  color: #787878;
+  font-weight: 400;
+}
+
+.contacts :before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(https://halkiseahouse.com/wp-content/uploads/2018/02/3.Veranda-1-Breakfast-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 900px) {
+  .contacts {
+    padding-top: 430px;
+  }
+  .contacts :before {
+    width: 100%;
+    height: 45%;
+    left: 0;
+  }
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons .projects {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 84px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #1D1D1D;
+  padding: 11px 0 8px 0;
+}
+
+.buttons .projects a {
+  color: #1D1D1D;
+}
+
+.buttons .projects a img {
+  width: 19px;
+}
+
+.buttons .projects a:hover {
+  color: #10C9C3;
+}
+
+.buttons .projects #left {
+  background-image: url(pe-7s-angle-left.png);
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 15px;
+}
+
+.buttons .projects #right {
+  background-image: url(pe-7s-angle-right.png);
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 110px center;
+  padding-right: 15px;
+}
+
+footer {
+  min-height: 286px;
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1137px;
+}
+
+.content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5px;
+}
+
+.Montserrat {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 72px;
+  letter-spacing: 0.18px;
+  color: #FFFFFF;
+}
+
+.Nunito {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.075px;
+  color: #BCBCBC;
+}
+
+#first-column {
+  min-width: 230px;
+}
+
+#two-column {
+  width: 165px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content div > a:hover {
+  color: #10C9C3;
+}
+
+@media (max-width: 360px) {
+  .header-menu {
+    padding: 1.8ex;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .map-conteiner {
+    height: 300px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 360px) {
+  .map-conteiner {
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+}
+
+@media (max-width: 1080px) {
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .get-in-touch {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 0;
+  }
+  .content div {
+    padding: 10px 0;
+  }
+}
+
+.back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  color: aqua;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: left;
+  font-family: cursive;
+  font-weight: 500;
+  background-color: #141414;
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=04_Project-Single.css.map */
