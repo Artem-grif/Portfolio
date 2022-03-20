@@ -8,6 +8,7 @@ body {
 
 .foundation {
   width: 100%;
+  margin-top: 15px;
 }
 
 .bace-conteiner {
@@ -97,9 +98,9 @@ a {
 }
 
 .mozaik {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .mozaik .mozaik-img {
