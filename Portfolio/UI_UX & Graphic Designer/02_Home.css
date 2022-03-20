@@ -8,7 +8,7 @@ body {
 
 .foundation {
   width: 100%;
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .bace-conteiner {
@@ -22,8 +22,8 @@ body {
   display: flex;
   min-height: 100px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+      align-items: center;
 }
 
 a {
@@ -61,15 +61,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+      align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+    -ms-flex-direction: column;
+      flex-direction: column;
   margin: auto;
   min-height: 310px;
 }
@@ -131,11 +131,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+      align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   color: white;
   font-size: 80px;
   z-index: 2;
@@ -161,11 +161,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+      align-items: center;
   padding: 0 10px;
 }
 
@@ -174,8 +174,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    -ms-flex-pack: justify;
+      justify-content: space-between;
   width: 1137px;
 }
 
@@ -185,11 +185,11 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+    -ms-flex-direction: column;
+      flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   padding: 0 5px;
 }
 
@@ -213,8 +213,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -ms-flex-align: center;
+      align-items: center;
   letter-spacing: 0.075px;
   color: #BCBCBC;
 }
@@ -227,11 +227,11 @@ footer {
   width: 165px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+    -ms-flex-direction: row;
+      flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .content div > a:hover {
@@ -262,8 +262,8 @@ footer {
   .contacts {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+      -ms-flex-direction: column;
+        flex-direction: column;
   }
   .get-in-touch {
     padding: 10px;
@@ -274,11 +274,11 @@ footer {
   .content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+      -ms-flex-align: center;
+        align-items: center;
     padding: 10px 0;
   }
   .content div {
