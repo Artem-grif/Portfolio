@@ -1,0 +1,305 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.foundation {
+  width: 100%;
+}
+
+.bace-conteiner {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.conteiner-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #191919;
+  text-decoration: none;
+  padding: 3.5ex;
+}
+
+.header-menu:hover {
+  color: #10C9C3;
+}
+
+.header-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  min-height: 310px;
+}
+
+.text h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.38px;
+  margin: 0;
+}
+
+.text p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.09px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.mozaik {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.mozaik .mozaik-img {
+  position: relative;
+  padding-bottom: 88%;
+  font-size: 0;
+}
+
+.mozaik .mozaik-img.mozaik-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mozaik .mozaik-img:before {
+  content: '👁';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#00ffff80, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 80px;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+
+.mozaik .mozaik-img:hover:before {
+  opacity: 1;
+}
+
+@media (max-width: 550px) {
+  .mozaik {
+    display: block;
+  }
+}
+
+footer {
+  min-height: 286px;
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1137px;
+}
+
+.content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5px;
+}
+
+.Montserrat {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 72px;
+  letter-spacing: 0.18px;
+  color: #FFFFFF;
+}
+
+.Nunito {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.075px;
+  color: #BCBCBC;
+}
+
+#first-column {
+  min-width: 230px;
+}
+
+#two-column {
+  width: 165px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content div > a:hover {
+  color: #10C9C3;
+}
+
+@media (max-width: 360px) {
+  .header-menu {
+    padding: 1.8ex;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .map-conteiner {
+    height: 300px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 360px) {
+  .map-conteiner {
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+}
+
+@media (max-width: 1080px) {
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .get-in-touch {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 0;
+  }
+  .content div {
+    padding: 10px 0;
+  }
+}
+
+.back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  color: aqua;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: left;
+  font-family: cursive;
+  font-weight: 500;
+  background-color: #141414;
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=02_Home.css.map */
