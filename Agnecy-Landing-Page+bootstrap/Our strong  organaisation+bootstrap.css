@@ -2,7 +2,7 @@
 body{
 	margin: 0;
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,a{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -12,11 +12,23 @@ h1,h2,h3,h4,h5,h6,p{
 .header{
 	background: #F6F2F2;
 }
+.header a:hover{
+	background-color: #FF3F40;
+	color: #E0E0E0;
+}
+.header a{
+	text-transform: uppercase;
+	padding: 33px 25px;
+	color: #E0E0E0;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.49000000953674316px;
+	text-align: left;
+}
 .baner{
 	background: #F6F2F2;
 }
 .baner h1{
-	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 60px;
@@ -52,6 +64,9 @@ h1,h2,h3,h4,h5,h6,p{
 	letter-spacing: 0.422159px;
 	text-transform: uppercase;
 	color: #000000;
+}
+.images div{
+	max-height: 300px;
 }
 @media (max-width: 950px){
 	.baner h1{
